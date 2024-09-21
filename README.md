@@ -20,3 +20,8 @@ startx
 ## notes
 change tty
 ctrl + alt + f(1-12)
+
+
+/etc/vconsole.conf
+KEYMAP=de
+mkinitcpio -P
