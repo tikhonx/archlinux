@@ -25,4 +25,4 @@ sudo mkinitcpio -P
 
 ## beauty
 sudo pacman -S lxappearance arc-gtk-theme  
-apply in lxappearance and firefox extention
+apply in lxappearance and firefox extension
