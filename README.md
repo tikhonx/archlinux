@@ -1,17 +1,17 @@
 # archlinux
 
 
-## install
-sudo pacman -S xorg-server xorg-xinit i3-wm gnome-terminal dmenu noto-fonts
+### install
+sudo pacman -S xorg-server xorg-xinit i3-wm kitty dmenu noto-fonts
 
 
-## terminal  
-bindsym $mod+Return exec gnome-terminal
+### terminal  
+edit ⁓/.config/i3/config
+bindsym $mod+Return exec kitty
 
-altterminal:
-rxvt-unicode
+alternative: bindsym $mod+Return exec dbus-launch gnome-terminal
 
-## after install:
+### after install:
 Configure sudo privileges:  
 /etc/sudoers
 
@@ -19,16 +19,16 @@ echo "exec i3" >> ⁓/.xinitrc
 
 echo "setxkbmap -layout de" >> ⁓/.bash_profile
 
-## finish
+### finish
 startx  
 
-## notes
+### notes
 change tty  
 ctrl + alt + f(1-12)  
 
 sudo echo "KEYMAP=de" > /etc/vconsole.conf  
 sudo mkinitcpio -P  
 
-## beauty
+### beauty
 sudo pacman -S lxappearance arc-gtk-theme feh  
 apply in lxappearance and firefox extension
