@@ -32,3 +32,8 @@ sudo mkinitcpio -P
 ### beauty
 sudo pacman -S lxappearance arc-gtk-theme feh  
 apply in lxappearance and firefox extension
+remove loading cursor:  
+$ cd ~/.icons/theme/cursors/
+$ rm watch left_ptr_watch
+$ ln -s left_ptr watch
+$ ln -s left_ptr left_ptr_watch
