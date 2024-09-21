@@ -11,8 +11,7 @@ Configure sudo privileges:
 
 echo "exec i3" >> ⁓/.xinitrc   
 
-⁓/.bash_profile  
-
+echo "setxkbmap -layout de" >> ⁓/.bash_profile
 
 ## finish
 startx  
