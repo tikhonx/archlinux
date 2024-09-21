@@ -6,22 +6,20 @@ sudo pacman -S xorg-server xorg-xinit i3-wm rxvt-unicode dmenu noto-fonts
 
 
 ## after install:
-Configure sudo privileges:
+Configure sudo privileges:  
 /etc/sudoers
 
-echo "exec i3" >> ⁓/.xinitrc 
+echo "exec i3" >> ⁓/.xinitrc   
 
-⁓/.bash_profile
+⁓/.bash_profile  
 
 
 ## finish
-startx
+startx  
 
 ## notes
-change tty
-ctrl + alt + f(1-12)
+change tty  
+ctrl + alt + f(1-12)  
 
-
-/etc/vconsole.conf
-KEYMAP=de
-mkinitcpio -P
+sudo echo "KEYMAP=de" > /etc/vconsole.conf  
+sudo mkinitcpio -P  
