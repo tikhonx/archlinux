@@ -15,7 +15,7 @@ echo "exec i3" >> ⁓/.xinitrc
 
 
 ## finish
-start x
+startx
 
 ## notes
 change tty
