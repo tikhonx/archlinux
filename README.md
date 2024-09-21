@@ -5,7 +5,7 @@
 sudo pacman -S xorg-server xorg-xinit i3-wm gnome-terminal dmenu noto-fonts
 
 
-##terminal
+## terminal  
 bindsym $mod+Return exec gnome-terminal
 
 altterminal:
