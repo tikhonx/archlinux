@@ -2,8 +2,10 @@
 
 
 ## install
-sudo pacman -S xorg-server xorg-xinit i3-wm rxvt-unicode dmenu noto-fonts
+sudo pacman -S xorg-server xorg-xinit i3-wm gnome-terminal dmenu noto-fonts
 
+altterminal:
+rxvt-unicode
 
 ## after install:
 Configure sudo privileges:  
