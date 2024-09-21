@@ -24,5 +24,5 @@ sudo echo "KEYMAP=de" > /etc/vconsole.conf
 sudo mkinitcpio -P  
 
 ## beauty
-sudo pacman -S lxappearance arc-gtk-theme 
+sudo pacman -S lxappearance arc-gtk-theme  
 apply in lxappearance and firefox extention
