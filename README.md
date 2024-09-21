@@ -1,11 +1,11 @@
 # archlinux
 
-sudo pacman -S xorg-server xorg-xinit 
-sudo pacman -S i3-wm rxvt-unicode dmenu
-sudo pacman -S noto-fonts
+
+## install
+sudo pacman -S xorg-server xorg-xinit i3-wm rxvt-unicode dmenu noto-fonts
 
 
-# after install:
+## after install:
 Configure sudo privileges:
 /etc/sudoers
 
@@ -14,9 +14,9 @@ echo "exec i3" >> ⁓/.xinitrc
 ⁓/.bash_profile
 
 
-# finish
+## finish
 start x
 
-# notes
+## notes
 change tty
 ctrl + alt + f(1-12)
