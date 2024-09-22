@@ -2,10 +2,20 @@
 
 
 ### install 1
+  
+pacstrap /mnt *package*  
+  
+#### base system:
+base base-devel linux linux-firmware vim  
 
-pacstrap /mnt base base-devel vim networkmanager lvm2 cryptsetup grub efibootmgr linux linux-firmware   
+#### encryption starter pack:   
+lvm2 cryptsetup grub  
 
-for runit add:  
+#### other stuff:  
+networkmanager  
+efibootmgr   
+
+#### runit (optional) 
 pacstrap /mnt runit elogind-runit networkmanager-runit lvm-runit   
   
 ### install 2
