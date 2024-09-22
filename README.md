@@ -1,7 +1,13 @@
 # archlinux
 
+## this is a guide how to install and configure an encrypted Archlinux system with the i3 window manager
 
-### install
+### install 1
+
+pacstrap /mnt base base-devel vim networkmanager lvm2 cryptsetup grub efibootmgr linux linux-firmware
+
+
+### install 2
 sudo pacman -S xorg-server xorg-xinit i3-wm kitty dmenu noto-fonts
 
 
