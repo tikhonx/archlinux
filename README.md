@@ -59,3 +59,11 @@ ctrl + alt + f(1-12)
 
 sudo echo "KEYMAP=de" > /etc/vconsole.conf  
 sudo mkinitcpio -P  
+
+
+arc-dark color Palette
+#404552
+#383c4a
+#4b5162
+#5294e2
+#7c818c
