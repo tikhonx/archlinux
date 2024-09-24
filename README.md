@@ -1,8 +1,8 @@
 # archlinux
+by running archinstall you can skip to section II.
 
 
-
-## maunual installation
+## I. manual installation
 
 pacstrap /mnt *package*  
   
@@ -18,8 +18,11 @@ efibootmgr
 
 ### runit (optional) 
 pacstrap /mnt runit elogind-runit networkmanager-runit lvm-runit   
-  
-## after installation
+
+
+
+
+## II. after installation
 sudo pacman -S *programm*
 
 *programms:*  
