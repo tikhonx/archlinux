@@ -42,12 +42,8 @@ arandr (for display settings)
 Configure sudo privileges:  
 /etc/sudoers
 
+Launch WM by *$ startx*
 echo "exec i3" >> ⁓/.xinitrc   
-
-echo "setxkbmap -layout de" >> ⁓/.bash_profile
-
-## finish
-startx  
  
 ## beauty
 apply theme in lxappearance and firefox extension
