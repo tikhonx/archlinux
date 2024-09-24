@@ -49,12 +49,14 @@ Configure sudo privileges:
 
 Launch WM by *$ startx*
 echo "exec i3" >> ⁓/.xinitrc   
- 
-### beauty
-apply theme in lxappearance and firefox extension
-edit ⁓/.config/kitty/kitty.conf
-background #404552
 
+### beauty  
+apply theme in lxappearance and firefox extension  
+  
+### kitty
+create config: ctrl+shift+f2
+edit ⁓/.config/kitty/kitty.conf  
+background #404552  
 
 ### firefox  
   
