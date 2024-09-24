@@ -23,24 +23,19 @@ pacstrap /mnt runit elogind-runit networkmanager-runit lvm-runit
 sudo pacman -S *programm*
 
 programms:
-vim (texteditor)
-git (github)
-xorg-server (display)
-xorg-xinit (display)
-i3-wm (desktop)
-kitty (terminal)
-noto-fonts (font collection)
-lxappearance (gui for system-themes)
-arc-gtk-theme (cool system-theme)
-feh (wallpaper)
-arandr (for display settings)
-
-
-## configs
-edit ⁓/.config/i3/config
-
-bindsym $mod+Return exec kitty
-
+vim (texteditor)   
+git (github)    
+xorg-server (display)  
+xorg-xinit (display)   
+i3-wm (desktop)   
+kitty (terminal)   
+noto-fonts (font collection)   
+lxappearance (gui for system-themes)   
+arc-gtk-theme (cool system-theme)  
+feh (wallpaper)  
+arandr (for display settings)  
+  
+  
 ## after install:
 Configure sudo privileges:  
 /etc/sudoers
