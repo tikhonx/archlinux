@@ -40,7 +40,7 @@ feh (wallpaper)
 arandr (for display settings)  
   
   
-# configs:
+### configs:
 
 Configure sudo privileges:  
 /etc/sudoers
@@ -48,12 +48,12 @@ Configure sudo privileges:
 Launch WM by *$ startx*
 echo "exec i3" >> ⁓/.xinitrc   
  
-# beauty
+### beauty
 apply theme in lxappearance and firefox extension
 edit ⁓/.config/kitty/kitty.conf
 background #404552
 
-# notes *(unrelated)*
+### notes *(unrelated)*
 change tty:
 ctrl + alt + f(1-12)  
 
