@@ -38,6 +38,7 @@ arandr (for display settings)
   
   
 ## after install:
+
 Configure sudo privileges:  
 /etc/sudoers
 
@@ -53,13 +54,16 @@ apply theme in lxappearance and firefox extension
 edit ⁓/.config/kitty/kitty.conf
 background #404552
 
-## notes
+## notes *(unrelated)*
 change tty:
 ctrl + alt + f(1-12)  
 
 Keyboard issues:
 sudo echo "KEYMAP=de" > /etc/vconsole.conf  
 sudo mkinitcpio -P  
+
+Keyboard issues 2:
+echo "setxkbmap -layout de" >> ⁓/.bash_profile
 
 arc-dark color Palette:
 #404552
@@ -76,4 +80,5 @@ $ ln -s left_ptr left_ptr_watch
 
 Terminal not opening in i3:
 bindsym $mod+Return exec dbus-launch gnome-terminal
+
 
