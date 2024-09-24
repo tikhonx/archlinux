@@ -54,7 +54,7 @@ echo "exec i3" >> ⁓/.xinitrc
 apply theme in lxappearance and firefox extension  
   
 ### kitty
-create config: ctrl+shift+f2
+create config: ctrl+shift+f2  
 edit ⁓/.config/kitty/kitty.conf  
 background #404552  
 
