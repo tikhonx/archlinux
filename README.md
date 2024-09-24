@@ -19,7 +19,7 @@ efibootmgr
 pacstrap /mnt runit elogind-runit networkmanager-runit lvm-runit   
   
 ## install 2
-sudo pacman -S xorg-server xorg-xinit i3-wm kitty dmenu noto-fonts
+sudo pacman -S xorg-server xorg-xinit i3-wm kitty noto-fonts
 
 
 ## terminal  
