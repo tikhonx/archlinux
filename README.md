@@ -6,17 +6,17 @@ by running archinstall you can skip to section II.
 
 pacstrap /mnt *package*  
   
-### base system:
+base system:
 base base-devel linux linux-firmware vim  
 
-### encryption starter pack:   
+encryption starter pack:   
 lvm2 cryptsetup grub  
 
-### other stuff:  
+other stuff:  
 networkmanager  
 efibootmgr   
 
-### runit (optional) 
+runit (optional) 
 pacstrap /mnt runit elogind-runit networkmanager-runit lvm-runit   
 
 
@@ -40,7 +40,7 @@ feh (wallpaper)
 arandr (for display settings)  
   
   
-## after install:
+# configs:
 
 Configure sudo privileges:  
 /etc/sudoers
@@ -48,12 +48,12 @@ Configure sudo privileges:
 Launch WM by *$ startx*
 echo "exec i3" >> ⁓/.xinitrc   
  
-## beauty
+# beauty
 apply theme in lxappearance and firefox extension
 edit ⁓/.config/kitty/kitty.conf
 background #404552
 
-## notes *(unrelated)*
+# notes *(unrelated)*
 change tty:
 ctrl + alt + f(1-12)  
 
