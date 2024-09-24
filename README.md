@@ -22,7 +22,7 @@ pacstrap /mnt runit elogind-runit networkmanager-runit lvm-runit
 ## after installation
 sudo pacman -S *programm*
 
-programms:
+programms:   
 vim (texteditor)   
 git (github)    
 xorg-server (display)  
