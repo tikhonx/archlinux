@@ -55,6 +55,18 @@ apply theme in lxappearance and firefox extension
 edit ⁓/.config/kitty/kitty.conf
 background #404552
 
+
+### firefox  
+  
+Extentions:   
+ublock  
+I still dont care about cookies  
+darkreader  
+
+Themes:  
+Arc Dark Theme  
+
+
 ### notes *(unrelated)*
 change tty:
 ctrl + alt + f(1-12)  
