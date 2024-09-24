@@ -1,8 +1,9 @@
 # archlinux
 
 
-## install 1
-  
+
+## maunual installation
+
 pacstrap /mnt *package*  
   
 ### base system:
@@ -18,15 +19,27 @@ efibootmgr
 ### runit (optional) 
 pacstrap /mnt runit elogind-runit networkmanager-runit lvm-runit   
   
-## install 2
-sudo pacman -S xorg-server xorg-xinit i3-wm kitty noto-fonts
+## after installation
+sudo pacman -S *programm*
+
+programms:
+vim (texteditor)
+git (github)
+xorg-server (display)
+xorg-xinit (display)
+i3-wm (desktop)
+kitty (terminal)
+noto-fonts (font collection)
+lxappearance (gui for system-themes)
+arc-gtk-theme (cool system-theme)
+feh (wallpaper)
+arandr (for display settings)
 
 
-## terminal  
+## configs
 edit ⁓/.config/i3/config
-bindsym $mod+Return exec kitty
 
-alternative: bindsym $mod+Return exec dbus-launch gnome-terminal
+bindsym $mod+Return exec kitty
 
 ## after install:
 Configure sudo privileges:  
@@ -40,30 +53,31 @@ echo "setxkbmap -layout de" >> ⁓/.bash_profile
 startx  
  
 ## beauty
-sudo pacman -S lxappearance arc-gtk-theme feh  
-apply in lxappearance and firefox extension
-
+apply theme in lxappearance and firefox extension
 edit ⁓/.config/kitty/kitty.conf
 background #404552
 
-remove loading cursor:  
-$ cd ~/.icons/theme/cursors/  
-$ rm watch left_ptr_watch
-$ ln -s left_ptr watch  
-$ ln -s left_ptr left_ptr_watch  
-
-
 ## notes
-change tty  
+change tty:
 ctrl + alt + f(1-12)  
 
+Keyboard issues:
 sudo echo "KEYMAP=de" > /etc/vconsole.conf  
 sudo mkinitcpio -P  
 
-
-arc-dark color Palette
+arc-dark color Palette:
 #404552
 #383c4a
 #4b5162
 #5294e2
 #7c818c
+
+remove loading cursor:  
+$ cd ~/.icons/theme/cursors/  
+$ rm watch left_ptr_watch
+$ ln -s left_ptr watch  
+$ ln -s left_ptr left_ptr_watch
+
+Terminal not opening in i3:
+bindsym $mod+Return exec dbus-launch gnome-terminal
+
