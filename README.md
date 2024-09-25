@@ -85,13 +85,6 @@ sudo mkinitcpio -P
 Keyboard issues 2:
 echo "setxkbmap -layout de" >> ⁓/.bash_profile
 
-arc-dark color Palette:
-#404552
-#383c4a
-#4b5162
-#5294e2
-#7c818c
-
 remove loading cursor:  
 $ cd ~/.icons/theme/cursors/  
 $ rm watch left_ptr_watch
