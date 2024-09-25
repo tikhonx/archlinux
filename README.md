@@ -41,8 +41,8 @@ lxappearance (gui for system-themes)
 arc-gtk-theme (cool system-theme)  
 feh (wallpaper)  
 arandr (for display settings)  
-  
-  
+pavucontrol (audio gui)  
+   
 ### configs:
 
 Configure sudo privileges:  
