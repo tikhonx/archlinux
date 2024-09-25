@@ -69,7 +69,11 @@ darkreader
 Themes:  
 Arc Dark Theme  
 
-
+Disable menu on alt:  
+Set ui.key.menuAccessKey = 17 on the about:config page.  
+This makes the menu bar work with Ctrl+Shift.   
+  
+    
 ### notes *(unrelated)*
 change tty:
 ctrl + alt + f(1-12)  
