@@ -42,7 +42,7 @@ arc-gtk-theme (cool system-theme)
 feh (wallpaper)  
 arandr (for display settings)  
 pavucontrol (audio gui)  
-leafpad (gui text-editor) 
+leafpad (gui text-editor)   
 mpv (video player)  
 yt-dlp (yt download)  
    
