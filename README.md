@@ -49,8 +49,8 @@ yt-dlp (yt download)
 ### configs:
 
 Configure sudo privileges:  
-$ usermod -aG wheel *name*
-/etc/sudoers
+$ usermod -aG wheel *name*  
+/etc/sudoers  
 
 Launch WM by *$ startx*
 echo "exec i3" >> ⁓/.xinitrc   
