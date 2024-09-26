@@ -45,6 +45,7 @@ pavucontrol (audio gui)
 leafpad (gui text-editor)   
 mpv (video player)  
 yt-dlp (yt download)  
+wget (to download files)  
    
 ### configs:
 
