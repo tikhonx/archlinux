@@ -46,6 +46,7 @@ leafpad (gui text-editor)
 mpv (video player)  
 yt-dlp (yt download)  
 wget (to download files)  
+alsa-utils (fix audio)
    
 ### configs:
 
@@ -103,4 +104,7 @@ If Audio stops working suddenly:
 Open up alsamixer. Then press F6 to select your sound card, most likely ending with PCH.
 Scroll right till you find the Auto-Mute option.
 Press up or down arrow to disable it. Press Esc to quit alsamixer. 
+
+see last packages installed:
+grep -i installed /var/log/pacman.log
 
